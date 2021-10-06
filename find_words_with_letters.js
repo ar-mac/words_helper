@@ -7,7 +7,7 @@ if (!wrd) {
   throw Error('Provide words list fo search from')
 }
 
-const letters = wrd.split('')
+const letters = wrd.toLowerCase().split('')
 const lettersCount = countBy(letters, (l) => l)
 
 fs.readFile('./files/filtered_words_alpha.json', 'utf8', function (err, data) {

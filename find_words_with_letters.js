@@ -10,7 +10,7 @@ if (!wrd) {
 const letters = wrd.split('')
 const lettersCount = countBy(letters, (l) => l)
 
-fs.readFile('./filtered_words_alpha.json', 'utf8', function (err, data) {
+fs.readFile('./files/filtered_words_alpha.json', 'utf8', function (err, data) {
   if (err) {
     console.log(err);
   } else {

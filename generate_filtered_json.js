@@ -1,6 +1,6 @@
 import fs from "fs";
 
-fs.readFile('./words_alpha.txt', 'utf8', function (err, data) {
+fs.readFile('./files/words_alpha.txt', 'utf8', function (err, data) {
   if (err) {
     console.log(err);
   } else {

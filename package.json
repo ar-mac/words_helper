@@ -1,0 +1,12 @@
+{
+  "name": "words_helper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "author": "Arkadiusz Machalica <a.machalica@selleo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21"
+  }
+}
